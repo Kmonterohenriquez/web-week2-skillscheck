@@ -33,9 +33,8 @@ const me={
         return Math.floor(Math.random() * 100) + 1 
     },
     profileImage: function(){
-        `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
+        return `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
     }
-,
 }
 
 //////////////////Step 3////////////////////
