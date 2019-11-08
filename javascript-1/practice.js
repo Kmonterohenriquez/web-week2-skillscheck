@@ -186,5 +186,5 @@ const enemies= people.filter((curr)=> curr.friend = false);
 
 // Code Here
 
-var totallyAwesome= people.reduce((acc, curr)=> acc + people[curr].awesomeLevel);
-console.log(totallyAwesome)
+var totallyAwesome= people.reduce((acc, curr)=> acc + curr.awesomeLevel, 0);
+// console.log(totallyAwesome)
