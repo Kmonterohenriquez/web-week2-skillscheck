@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.sm-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+.nav-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+header {
+  height: 50px;
+  background: grey;
+}
+
+header .logo p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  display: inline;
+  list-style: none;
+  color: white;
+}
+
+.showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+  background: black;
+}
+
+.showcase h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: yellow;
+}
+
+.grid-container-1 {
+  padding: 40px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-gap: 40px;
+}
+
+.grid-container-1 .box {
+  border-radius: 10px;
+  height: 200px;
+  background: green;
+}
+
+.grid-container-2 {
+  padding: 40px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-gap: 40px;
+}
+
+.grid-container-2 .box {
+  height: 200px;
+  background: orangered;
+}
+
+.grid-container-3 {
+  padding: 70px 0 150px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-gap: 40px;
+}
+
+.grid-container-3 .box {
+  height: 100px;
+}
+
+.grid-container-3 .box:nth-child(1) {
+  padding: 0 20px;
+}
+
+.grid-container-3 .box:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
