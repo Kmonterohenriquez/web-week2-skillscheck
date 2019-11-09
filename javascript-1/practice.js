@@ -105,14 +105,16 @@ const me={
 //////////////////PROBLEM 13////////////////////
 function bigOrSmall(arr){
 	const answers=[];
-	const result= arr.filter((curr)=>  curr> 100)
-	result.push(answers);
-	if(result ===true){
-		return 'big'
-	} else{
-		return 'small'
-	}
-} 
+	const result= arr.map((curr)=> {
+		if (curr> 100){
+			answers.push('big')
+		}else if(curr<=100){
+			answers.push('small')
+		}})
+	// result.push(answers);
+return answers
+}
+	
 
 // Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
