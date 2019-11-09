@@ -180,7 +180,7 @@ const people = [
 ]
 
 // // Code Here
-const enemies= people.filter((curr)=> curr.friend = false);
+const enemies= people.filter((curr)=> curr.friend == false);
 
 //////////////////PROBLEM 20////////////////////
 
